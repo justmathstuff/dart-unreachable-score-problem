@@ -33,7 +33,7 @@ So what we can do to generate numbers that can be represented with the expressio
 
 So the original method was to take 0, and branch off to 3 different numbers, and then to branch off again from all 3 of those to 9 more numbers. But keeping track of which few branches you need to extend is not efficient, so a better way might be to just branch off from the first number in the list which is representable, and haven't been used to branch off before (because it would be meaningless to repeat a branch off).
 
-Example:
+Example (circled numbers are representable, and crossed out circled numbers have already been used to branch off):
 
 ![Example Problem with 3 & 5](https://raw.githubusercontent.com/justmathstuff/dart-unreachable-score-problem/master/IMG1.jpg)
 
